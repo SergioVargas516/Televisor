@@ -6,7 +6,30 @@ public class Televisor
  String[] entradas;
  int volumen,canal;
  
+ public void encendido()
+ {
+	 this.encendido = true;
+ }
  
+ public void volmas(int volumen)
+ {
+	 this.volumen++;
+ }
+ 
+ public void volmen(int volumen)
+ {
+	 this.volumen--;
+ }
+ 
+ public void canalmas(int volumen)
+ {
+	 this.canal++;
+ }
+ 
+ public void canalmen(int volumen)
+ {
+	 this.canal--;
+ }
  
 public String getMarca() 
 {
